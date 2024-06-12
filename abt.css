@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f3ecec, #f4c3c3); /* Gradient background */
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    padding: 15px 25px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input {
+    padding: 5px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.content {
+    padding: 80px 20px 20px; /* Extra padding at the top to avoid overlap with navbar */
+    text-align: center;
+    max-width: 1200px;
+    margin: 50px auto;
+    color: white;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.about-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.about-text h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 3rem;
+}
+
+.about-text p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-video {
+    flex: 1;
+}
+
+.about-video video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.founder-message {
+    background-color: red;
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+}
+
+.message-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.message-text {
+    flex: 2;
+    text-align: left;
+}
+
+.message-text h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.message-text p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.message-image {
+    flex: 1;
+}
+
+.message-image img {
+    max-width: 300px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.vision-mission {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 20px;
+    color: white;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+}
+
+.vision-image, .mission-image {
+    flex: 1;
+}
+
+.vision-image img, .mission-image img {
+    max-width: 150px;
+    width: 100%;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.vision-text, .mission-text {
+    flex: 2;
+}
+
+.vision-text h2, .mission-text h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.vision-text p, .mission-text p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.values {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 20px;
+    color: white;
+}
+
+.value-card {
+    background-color: red;
+    /* background: rgba(0, 0, 0, 0.4);  */
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.value-card h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.value-card p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.success-stories {
+    padding: 40px 20px;
+    color: white;
+    text-align: center;
+}
+
+.sec-title {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    color: red;
+}
+
+.sec-title h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.sec-title p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.success-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.single-success {
+    background: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+    margin: 10px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.client-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.client-pic {
+    margin-right: 20px;
+}
+
+.client-pic img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.client-details {
+    text-align: left;
+}
+
+.client-details h6 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.client-details span {
+    font-size: 1em;
+    color: #ccc;
+}
